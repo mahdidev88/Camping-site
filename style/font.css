@@ -1,6 +1,6 @@
 @font-face {
-    font-family: "archivo-blak" ;
-    src: url(../fonts/Archio/Archivo-Black.ttf) format(truetype);
+    font-family: "JosefinSans-Bold"; ;
+    src: local("JosefinSans-BoldItalic") , local("JosefinSans-Bolditalic") , url(../fonts/JosefinSans/JosefinSans-BoldItalic.ttf) format(truetype);
 }
 @font-face {
     font-family: "roboto";

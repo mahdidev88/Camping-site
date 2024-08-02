@@ -1,31 +1,24 @@
-/* Header */
-@media (max-width: 120rem) {
-    .nav-menu-list{
-        font-size: 1.6rem;
-        width: 530px;
-    }
-    .nav-menu-links{
-        font-size: 1.6rem;
-    }
-}
-@media (max-width:900px) {
-    .nav-menu-list{
-        font-size: 1.2rem;
-        width: 430px;
-    }
-    .nav-menu-links{
-        font-size: 1.2rem;
-        margin-left: 30px;
-    }
-}
-@media (min-width: 768px) {
+@media (min-width: 800px) {
     .mobile-mune{
         display: none;
     }
     .nav__btn{
         display: none;
     }
+    .logo{
+        display: none;
+    }
     .nav-menu{
         display: flex;
+    }
+}
+@media (max-width:992px) {
+    .nav-menu-links{
+        display: none;
+    }
+}
+@media (max-width:992px) {
+    .mune-container{
+        margin-left: -3rem;
     }
 }

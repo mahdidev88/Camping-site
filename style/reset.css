@@ -1,4 +1,13 @@
-
+:root{
+    --roboto-reg:roboto-regular;
+    --JS-Bold:JosefinSans-Bold;
+    --roboto-default:roboto;
+    --color-orange: #E76F51;
+    --color-text: #3B3735;
+    box-sizing: border-box;
+    margin: 0;
+    font-size: 62.5%;
+}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)

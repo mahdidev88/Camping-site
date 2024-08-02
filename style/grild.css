@@ -1,23 +1,38 @@
 /* container */
 .container{
-    width: 75%;
-    margin-right: auto;
-    margin-left: auto;
+    width: 100%;
     padding-right: 15px;
     padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
 }
-@media (max-width:125rem) {
-    .container{
-        width: 80%;
+@media (min-width: 576px) {
+    .container {
+        width: 54rem;
     }
 }
-@media (max-width:80rem) {
-    .container{
-        width: 90%;
+@media (min-width: 768px) {
+    .container {
+        width: 72rem;
     }
 }
-@media (max-width:48rem) {
-    .container{
-        width: 95%;
+@media (min-width: 992px) {
+    .container {
+        width: 96rem;
+    }
+}
+@media (min-width: 1200px) {
+    .container {
+        width: 115rem;
+    }
+}
+@media (min-width: 1400px) {
+    .container {
+        width: 137rem;
+    }
+}
+@media (min-width: 1600px) {
+    .container {
+        width: 1570px;
     }
 }
